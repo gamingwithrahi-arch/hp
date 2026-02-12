@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Page 1: Welcome -->
+<div class="page" id="page1">
+    <h1>🎉 Happy Birthday! 🎉</h1>
+    <p>Click below to see your surprise ❤️</p>
+    <button onclick="nextPage()">Open Surprise</button>
+</div>
+
+<!-- Page 2: Love Letter -->
+<div class="page" id="page2">
+    <h2>My Special Message for You 💌</h2>
+    <p>
+        Roses are red, violets are blue,<br>
+        This birthday surprise is just for you!<br>
+        Wishing you love, laughter, and endless joy. ❤️
+    </p>
+    <button onclick="nextPage()">Next</button>
+</div>
+
+<!-- Page 3: Photo Gallery -->
+<div class="page" id="page3">
+    <h2>Memories Together 📸</h2>
+    <div class="gallery">
+        <img src="images/photo1.jpg" alt="Photo 1">
+        <img src="images/photo2.jpg" alt="Photo 2">
+        <img src="images/photo3.jpg" alt="Photo 3">
+        <img src="images/photo4.jpg" alt="Photo 4">
+    </div>
+    <button onclick="restart()">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
